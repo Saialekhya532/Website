@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+    <link rel="stylesheet" href="../education/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Fira+Sans:ital,
+wght@0,300;0,600;1,300&family=Kanit:ital,
+wght@0,500;1,900&family=Playfair+Display:ital,wght@1,400;1,
+600&family=Roboto:wght@300&family=Tiro+Gurmukhi:ital@1&family=Tiro+Tamil:ital@1&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="webpage.html"><img src="../education/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Bhimavaram Education</h1>
+            <p>View this page,to know the education system in Bhimavaram from Inter-PG</p>
+        </div>
+    </section>
+    <!---course------>
+    <section class="course">
+        <h1>Courses we have</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>The board regulates and supervises the system of intermediate education in Telangana State. 
+                    It executes and governs various activities that include devising of courses of study, prescribing
+                     syllabus, conducting examinations, granting affiliations to colleges arnd, providing direction, support
+                      and leadership for all educational institutions under its jurisdiction.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>A Bachelor of Education (B.Ed.) is an undergraduate professional degree which prepares students 
+                    for work as a teacher in schools. In some countries such as Tanzania and Kenya, additional tasks like
+                     field work and research are required in order for the student to be fully qualified to teach. It may also 
+                     be accompanied with or followed by tests for licenses or certifications required for teachers in some areas.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Postgraduate is the name for someone who is doing further education, after obtaining both a Bachelor's degree and
+                     a Master's degree from a university. A typical form of this kind of education is a doctoral thesis, or Ph. D. Another
+                      such degree is probably the Master level of the revised Bologna system.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------- famus------>
+    <section class="fms">
+        <h1>Bhimavaram  Famous</h1>
+        <p>In Bhimavaram so many beautiful temples are there someswara swami temple and mavulamma temple like this someswara swami 
+            temple is one of the fifth holy temples of load shiva and annual mauvlamma festival is celebrated for 30 days desing in january.
+            Most of the people have profition on agriculture in bhimavaram areas. 
+        </p>
+        <div class="row">
+            <div class="fms-col">
+                <img src="../education/temple.jpg">
+                <div class="layer">
+                <h3>Someswara Swami</h3>
+            </div>
+            </div>
+            <div class="fms-col">
+                <img src="../education/neacher.jfif">
+                <div class="layer">
+                <h3>Nature</h3>
+            </div>
+            </div>
+            <div class="fms-col">
+                <img src="../education/kaju.jpeg">
+                <div class="layer">
+                <h3>Famous</h3>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-------reviws------>
+    <section class="reviews">
+        <h1>Reviews</h1>
+        <div class="row">
+            <div class="reviews-col">
+                <img src="../education/r1.jpg">
+                <div>
+                    <p>
+                        In this page more usefull to search education details
+                        <h3>Naga Raju</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                    </p>
+                </div>
+            </div>
+            <div class="reviews-col">
+                <img src="../education/r3.JPG">
+                <div>
+                    <p>
+                        It more usefull for students to search jobs also
+                        <h3>Gayatri</h3>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----java script------>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
